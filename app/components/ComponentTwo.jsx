@@ -58,7 +58,6 @@ class ComponentTwo extends React.Component {
     console.log('Super component did update');
   }       // componentDidUpdate
 
-
   onClick() {
     this.setState({
       count: this.state.count + 1
